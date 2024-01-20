@@ -1,0 +1,37 @@
+{
+  "name": "flairchange_bot_lemmy",
+  "version": "1.0.0",
+  "description": "Detecting flair changes in c/PoliticalCompassMemes. Porting of the Reddit-famous flairchange_bot ",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basedcount/flairchange_bot_lemmy.git"
+  },
+  "keywords": [
+    "lemmy",
+    "lemmy-bot",
+    "flair",
+    "user-flair"
+  ],
+  "author": "ornato-t",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/basedcount/flairchange_bot_lemmy/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/basedcount/flairchange_bot_lemmy#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "dotenv": "^16.3.2",
+    "eslint": "^8.56.0",
+    "lemmy-bot": "^0.5.1",
+    "mongodb": "^6.3.0",
+    "typescript": "^5.3.3"
+  }
+}
