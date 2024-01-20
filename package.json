@@ -26,6 +26,7 @@
   "type": "module",
   "homepage": "https://github.com/basedcount/flairchange_bot_lemmy#readme",
   "dependencies": {
+    "@types/node": "^20.11.5",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
     "dotenv": "^16.3.2",
